@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js conditional statements</title>
+</head>
+<body>
+    <script>
+// current day of the week.
+
+let day=prompt("enter the days");
+if (day=="monday") {
+  console.log("Start your week strong!");
+}
+else if(day=="tuesday") {
+  console.log("Keep going");
+} 
+else if(day=="wednesday") {
+  console.log("Halfway there!");
+} else if(day=="thrusday") {
+  console.log("Almost the weekend!");
+} else if(day=="friday") {
+    console.log("Happy Friday!");
+}
+else if(day=="saturday") {
+    console.log("Happy Weekend!");
+}
+else if(day=="sunday") {
+    console.log("Happy Weekend");
+}
+else {
+  console.log("not match the day");
+}
+// traffic lights using  if, else ,else if 
+
+let color=prompt("enter colour");
+if(color=="red"){
+console.log("Stop");
+}
+else if(color=="yellow"){
+  console.log("Get Ready")
+}
+else if(color=="green"){
+console.log("Go")
+}
+else{
+  console.log("invaild color")
+}
+//  discount...
+
+ let amount=prompt("enter amount using $");
+  if(amount<50){
+         console.log("No discount");
+        }
+  else if(amount>50 && amount<100){
+         console.log("5% discount");
+       }
+         else if(amount>101 && amount<200){
+          console.log("10% discount");
+       }
+       else if(amount>200){
+           console.log("15% discount");
+         }
+       else{
+           console.log("maximum price reached");
+}
+// resturent prices
+let dish=prompt("enter dish name");
+if(dish=="biriyani"){
+console.log("350");
+}
+else if(dish=="shawarma"){
+  console.log("270");
+}
+else if(dish=="fried rice"){
+  console.log("200");
+}
+else if(dish=="veg pulav"){
+  console.log("290");
+}
+else{
+  console.log("not match the amount");
+}
+//simple calculator
+let num1=10;
+let num2=20;
+let opp=prompt("enter operation to perform");
+switch(opp){
+  case "addition":
+     console.log(num1+num2);
+     break;
+     case "subtraction":
+       console.log(num1-num2);
+       break;
+       case "multiplication":
+        console.log(num1*num2);
+        break;
+        case "division":
+           console.log(num1/num2);
+            break;
+              default:
+                console.log("Invalid operation");
+              }
+
+
+
+
+    </script>
+</body>
+</html>
